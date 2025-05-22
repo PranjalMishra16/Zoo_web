@@ -37,7 +37,7 @@ This project was built to highlight my frontend web development skills, particul
 
 **Pranjal Mishra**  
 Student @ Northeastern University  
-[GitHub]([https://github.com/pranjalmishra](https://github.com/Pringlescantcode)) • [LinkedIn](www.linkedin.com/in/pranjal-mishra-2a880a289)
+[GitHub](https://github.com/PranjalMishra16) • [LinkedIn](www.linkedin.com/in/pranjal-mishra-2a880a289)
 
 ---
 
