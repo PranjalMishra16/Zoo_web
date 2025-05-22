@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang = "en">
+	
+<head>
+<meta charset="utf-8">
+<title>form</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,400;8..144,700&display=swap" rel="stylesheet">
+
+<style>
+@import url("stylesheets/main.css");
+	
+* {
+	box-sizing: border-box;
+}
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 2px solid #000;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+input[type=submit] {
+	background-color: #000000;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	float: right;
+	cursor:pointer;
+	
+}
+
+input[type=submit]:hover {
+	background-color: #7D7878;
+}
+	
+input[type=reset]{
+	background-color: #000000;
+	color:white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	float:left;
+	
+}
+	
+input[type=reset]:hover{
+	background-color: #7D7878;
+}
+	
+</style>
+
+</head>
+
+<body>
+
+	<div class = "header">
+	<h1>Pranjal</h1>
+	<h2> Zoos to be Seen</h2>
+</div>
+	
+	
+<nav>
+	
+	<ul>
+		<li class = "active"><a href="index.html" class="btn"><i class="fa fa-home"></i></a></li>
+		<li><a href="about_us.html"> About Us </a></li>
+		<li><a href="fun_facts.html"> Fun Facts </a></li>
+		<li><a href="contact.html"> Contact </a></li>
+	
+	</ul>	
+
+
+</nav>	
+<div class="container">
+
+<form action="/action_page.php">
+<h3> Credit Card Application</h3>
+<div class="row">
+
+	
+  
+<div class="col-100">
+    <label for="fname">Name</label>
+    <div class="name-fields">
+      <input type="text" id="fname" name="firstname" placeholder="First">
+      <input type="text" id="lname" name="lastname" placeholder="Last">
+   
+	</div>
+
+	</div>
+	
+</div>
+
+	
+	
+<div class="row">
+  
+	<div class="col-25">
+    <label for="email">E-mail</label>
+	</div>
+  
+	<div class="col-75">
+    <input type="text" id="email" name="email" placeholder="E-mail..">
+	</div>
+	
+</div>
+
+<div class="row">
+
+	<div class="col-25">
+    <label for="state">State</label>
+	</div>
+  
+	<div class="col-75">
+    <select id="state" name="state">
+		<option value="Ala">Alabama</option>
+		<option value="Mass">Massachusetts</option>
+		<option value="Ala">Illinois</option>
+		<option value="Cali">California</option>
+		<option value="NYC">New York</option>
+	</select>
+	</div>
+</div>
+	
+<div class="row">
+
+	<div class="col-25">
+    <label for="citizen">Are you a US Citizen?</label>
+	</div>
+  
+	<div class="col-75">
+    <select id="citizen" name="citizen">
+		<option value="Yes">Yes</option>
+		<option value="No">No</option>
+	</select>
+	</div>
+</div>
+
+
+<div class="row">
+	
+	<div class="col-25">
+    <label for="ssn">SSN</label>
+	</div>
+  
+	<div class="col-75">
+    <input type="number" id="ssn" name="social security number" placeholder="SSN">
+	</div>
+
+</div>
+
+<div class="row">
+	
+	<div class="col-25">
+    <label for="phone">Phone</label>
+	</div>
+  
+	<div class="col-75">
+    <input type="number" id="phone" name="phone" placeholder="Number">
+	</div>
+
+</div>
+
+<div class="row">
+
+	<div class="col-25">
+    <label for="dob">Date of Birth</label>
+	</div>
+	
+	<div class="col-75">
+    <input type="date" id="dob" name="dob">
+	</div>
+
+</div>
+	
+
+	
+	<br>
+	  
+<div class="row">
+	<input type="reset" value="Reset">
+	<input type="submit" value="Submit">
+	
+</div>
+	  
+</form>
+
+</div>
+	
+<footer>
+	&copy; 2025 Pranjal Mishra 
+</footer>	
+
+</body>
+
+</html>
